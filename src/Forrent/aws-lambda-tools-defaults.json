@@ -11,8 +11,8 @@
   "region"      : "eu-west-1",
   "configuration" : "Release",
   "framework"     : "netcoreapp2.1",
-  "function-runtime" : "dotnetcore2.1",
-  "function-memory-size" : 256,
-  "function-timeout"     : 30,
-  "function-handler"     : "Forrent::Forrent.Function::FunctionHandler"
+  "s3-prefix"     : "Forrent/",
+  "template"      : "serverless.template",
+  "template-parameters" : "",
+  "s3-bucket"           : ""
 }
